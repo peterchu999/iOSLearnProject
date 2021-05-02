@@ -14,6 +14,10 @@ struct GQLRicknMortyApp: App {
             switch result {
               case .success(let graphQLResult):
                 print("Success! Result: \(graphQLResult)")
+                
+                let charactersGQL = graphQLResult.data?.characters?.results?[0]
+                print(charactersGQL)
+                
               case .failure(let error):
                 print("Failure! Error: \(error)")
               }

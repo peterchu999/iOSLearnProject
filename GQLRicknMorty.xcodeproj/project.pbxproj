@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		429389B1263E594F005A9395 /* CharactersGQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429389B0263E594F005A9395 /* CharactersGQL.swift */; };
+		429389B7263E5ADF005A9395 /* InfoGQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429389B6263E5ADF005A9395 /* InfoGQL.swift */; };
+		429389BB263E5BC4005A9395 /* CharacterGQL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429389BA263E5BC4005A9395 /* CharacterGQL.swift */; };
 		42B4B7F6263594A800EE7DE5 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B4B7F5263594A800EE7DE5 /* API.swift */; };
 		42B4B7F9263594FE00EE7DE5 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B4B7F8263594FE00EE7DE5 /* Network.swift */; };
 		42B65FF42635910700BCA59B /* GQLRicknMortyApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42B65FF32635910700BCA59B /* GQLRicknMortyApp.swift */; };
@@ -18,6 +21,9 @@
 
 /* Begin PBXFileReference section */
 		35126CA5C93E4AE77616698A /* Pods-GQLRicknMorty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GQLRicknMorty.debug.xcconfig"; path = "Target Support Files/Pods-GQLRicknMorty/Pods-GQLRicknMorty.debug.xcconfig"; sourceTree = "<group>"; };
+		429389B0263E594F005A9395 /* CharactersGQL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersGQL.swift; sourceTree = "<group>"; };
+		429389B6263E5ADF005A9395 /* InfoGQL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoGQL.swift; sourceTree = "<group>"; };
+		429389BA263E5BC4005A9395 /* CharacterGQL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterGQL.swift; sourceTree = "<group>"; };
 		42B4B7F5263594A800EE7DE5 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		42B4B7F8263594FE00EE7DE5 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		42B65FF02635910700BCA59B /* GQLRicknMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GQLRicknMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -50,6 +56,16 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		429389AE263E5921005A9395 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				429389B0263E594F005A9395 /* CharactersGQL.swift */,
+				429389B6263E5ADF005A9395 /* InfoGQL.swift */,
+				429389BA263E5BC4005A9395 /* CharacterGQL.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		42B65FE72635910700BCA59B = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +87,7 @@
 		42B65FF22635910700BCA59B /* GQLRicknMorty */ = {
 			isa = PBXGroup;
 			children = (
+				429389AE263E5921005A9395 /* Model */,
 				42B4B7F5263594A800EE7DE5 /* API.swift */,
 				42B4B7F8263594FE00EE7DE5 /* Network.swift */,
 				42B65FF32635910700BCA59B /* GQLRicknMortyApp.swift */,
@@ -233,7 +250,10 @@
 			files = (
 				42B65FF62635910700BCA59B /* ContentView.swift in Sources */,
 				42B4B7F6263594A800EE7DE5 /* API.swift in Sources */,
+				429389BB263E5BC4005A9395 /* CharacterGQL.swift in Sources */,
 				42B4B7F9263594FE00EE7DE5 /* Network.swift in Sources */,
+				429389B1263E594F005A9395 /* CharactersGQL.swift in Sources */,
+				429389B7263E5ADF005A9395 /* InfoGQL.swift in Sources */,
 				42B65FF42635910700BCA59B /* GQLRicknMortyApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
