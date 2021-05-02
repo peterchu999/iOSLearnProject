@@ -1,6 +1,6 @@
 # Important!
 
-Turns out when we use graphql `apollo` already make the parsed object for use, so after fetch we copuld use the data directly without parsed it
+Turns out when we use apollo graphql, `apollo` already make the parsed object, so after fetch we could use the data directly without parsed it
 
 ## Description
 
