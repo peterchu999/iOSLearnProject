@@ -1,0 +1,16 @@
+query characters($pageId: Int) {
+  characters(page: $pageId) {
+    info {
+      count
+      pages
+      next
+      prev
+    }
+    results {
+      id
+      name
+      status
+      image
+    }
+  }
+}
